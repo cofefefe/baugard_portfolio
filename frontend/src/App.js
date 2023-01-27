@@ -34,7 +34,7 @@ function App() {
             <UserContext.Provider value={[user, setUser]}>
                 <Router>
                     <Routes>
-                        <Route path='/baugard_portfolio' element={<EntryPage/>}/>
+                        <Route path='/' element={<EntryPage/>}/>
                         <Route path='/homepage' element={<Homepage/>}/>
                         <Route path='/contact' element={<Contact/>}/>
                         <Route path='/goldenbook' element={<Goldenbook/>}/>

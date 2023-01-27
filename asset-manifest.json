@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.255e78b0.css",
+    "main.js": "/portfolio/static/js/main.841a3416.js",
+    "static/media/Ohmyfood.PNG": "/portfolio/static/media/Ohmyfood.a3c92a6a4a1755eaeb8e.PNG",
+    "static/media/bookivisual.png": "/portfolio/static/media/bookivisual.39af16fedfdd24a05cb3.png",
+    "static/media/groupomania.PNG": "/portfolio/static/media/groupomania.4e19b34a2a49cc370291.PNG",
+    "static/media/Mukta-Regular.ttf": "/portfolio/static/media/Mukta-Regular.044d4dd07d7636695eda.ttf",
+    "static/media/Mukta-Medium.ttf": "/portfolio/static/media/Mukta-Medium.1dbcaa3b34d2fe6808d3.ttf",
+    "static/media/Mukta-Bold.ttf": "/portfolio/static/media/Mukta-Bold.6a7897f127e01e4b0d8f.ttf",
+    "static/media/Lapanthère.PNG": "/portfolio/static/media/Lapanthère.4379253317fa760f2f25.PNG",
+    "static/media/piiquante.PNG": "/portfolio/static/media/piiquante.dda5dd2b3bf58b354b31.PNG",
+    "static/media/Kanap.PNG": "/portfolio/static/media/Kanap.da0ce4e2e067352d38f4.PNG",
+    "static/media/PlayfairDisplay-Medium.ttf": "/portfolio/static/media/PlayfairDisplay-Medium.d8afa483b200cadcda26.ttf",
+    "static/media/PlayfairDisplay-Bold.ttf": "/portfolio/static/media/PlayfairDisplay-Bold.93cdecc21109a014b86b.ttf",
+    "static/media/PlayfairDisplay-Regular.ttf": "/portfolio/static/media/PlayfairDisplay-Regular.27705d9c43e8c36b1abd.ttf",
+    "static/media/profil_pic.webp": "/portfolio/static/media/profil_pic.145bf9bf76a2ea1d0d1c.webp",
+    "static/media/jardin.jpg": "/portfolio/static/media/jardin.b36438b155eb8d7a2399.jpg",
+    "static/media/albi.jpg": "/portfolio/static/media/albi.e4fe6b8baefcc22ed177.jpg",
+    "static/media/cathedrale.jpg": "/portfolio/static/media/cathedrale.f9087b8ab05ae84a7e69.jpg",
+    "static/media/portfolio_background.webp": "/portfolio/static/media/portfolio_background.de002903dcfa22370ab8.webp",
+    "static/media/mamadouniang.webp": "/portfolio/static/media/mamadouniang.d2edeaf667eba6fd8ca9.webp",
+    "static/media/mrnobody.webp": "/portfolio/static/media/mrnobody.ba326cd3c20d8d5f6152.webp",
+    "static/media/Logo_nav.PNG": "/portfolio/static/media/Logo_nav.11113fcdfee6966a809e.PNG",
+    "static/media/civ.webp": "/portfolio/static/media/civ.6612dc84f2dd1b66dac4.webp",
+    "static/media/Logo_portfolio.webp": "/portfolio/static/media/Logo_portfolio.04dce6bbe847271226a2.webp",
+    "static/media/paradox_logo.webp": "/portfolio/static/media/paradox_logo.5b18ec737f6ba74c2f8c.webp",
+    "static/media/fm23.webp": "/portfolio/static/media/fm23.9f1d48bd2738ed371f6c.webp",
+    "index.html": "/portfolio/index.html",
+    "main.255e78b0.css.map": "/portfolio/static/css/main.255e78b0.css.map",
+    "main.841a3416.js.map": "/portfolio/static/js/main.841a3416.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.255e78b0.css",
+    "static/js/main.841a3416.js"
+  ]
+}

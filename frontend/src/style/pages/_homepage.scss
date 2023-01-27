@@ -1,0 +1,81 @@
+.homepage{
+    background-image: url(../../assets/portfolio_background.webp);
+    height:auto;
+    max-height:min-content;
+    background-size:fill;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width : 100%;
+        background: inherit;
+        height:90.7%;
+        z-index: -1;
+        // filter        : blur(10px);
+        // -moz-filter   : blur(10px);
+        // -webkit-filter: blur(10px);
+        // -o-filter     : blur(10px);
+    
+        // transition        : all 2s linear;
+        // -moz-transition   : all 2s linear;
+        // -webkit-transition: all 2s linear;
+        // -o-transition     : all 2s linear;
+    }
+    &__main{
+        margin-top:10%;
+        flex-wrap: wrap;
+    }
+    &__img{
+        width:440px;
+        height:440px;
+        border-radius:35%;
+        transition:200ms all ease;
+    }
+    &__profile{
+        background-color:$secondary-color;
+        max-width:600px;
+        max-height:440px;
+        border-radius:20%;
+        font-size:20px;
+        padding:30px 20px 20px 20px;
+        font-family:mukta_regular, sans-serif;
+        letter-spacing:1px;
+        line-height: 35px;
+        transition:200ms all ease;
+        p{
+            margin-top:35px;
+            text-align: justify;
+            color:white;
+        }
+    }
+    &__bar{
+        width:300px;
+        border-bottom:1px solid white;
+        margin:auto;
+    }
+}
+@media (max-width:482px) {
+    .homepage{
+        &__main{
+            margin-top:25%;
+        }
+        &__profile{
+            padding-top:0px;
+            p{
+                font-size:15px;
+            }
+        }
+        &__bar{
+            display:none;
+        }
+    }
+}
+@media (max-width:1135px) {
+    .homepage{
+        &__img{
+            width:230px;
+            height:200px;
+            margin-bottom:30px;
+        }
+    }
+}

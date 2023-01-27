@@ -1,0 +1,35 @@
+@mixin flex-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+@font-face {
+    font-family: mukta_medium;
+    src: url(../../assets/Font/Mukta/Mukta-Medium.ttf);
+}
+
+@font-face {
+    font-family: mukta_bold;
+    src: url(../../assets/Font/Mukta/Mukta-Bold.ttf);
+}
+
+@font-face {
+    font-family: mukta_regular;
+    src: url(../../assets/Font/Mukta/Mukta-Regular.ttf);
+}
+
+@font-face {
+    font-family: playfair_medium;
+    src: url(../../assets/Font/PlayfairDisplay/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: playfair_bold;
+    src: url(../../assets/Font/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: playfair_regular;
+    src: url(../../assets/Font/PlayfairDisplay/PlayfairDisplay-Regular.ttf);
+}

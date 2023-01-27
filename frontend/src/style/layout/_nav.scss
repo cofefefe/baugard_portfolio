@@ -1,0 +1,18 @@
+.nav{
+    background-color:$nav-color;
+    flex-direction:row;
+    align-items:center;
+    &__logo{
+        width:90px;
+        height:90px;
+        padding:10px;
+        cursor:pointer;
+    }
+    &__name{
+        align-self:center;
+        font-size:26px;
+        color:white;
+        margin:0;
+    }
+}
+

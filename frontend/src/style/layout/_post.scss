@@ -1,0 +1,42 @@
+.goldenbook{
+    &__msg{
+        font-family: mukta_regular;
+        max-height:800px;
+        overflow:auto;
+
+        &--post{
+            margin:15px 0px;
+            background-color:rgb(241, 228, 228);
+            padding:15px;
+            border-radius:20px;
+            max-width:550px;
+            margin-left:20px;
+            margin-right:10px;
+        }
+        &--poster{
+            margin:0;
+            border-bottom:1px solid rgb(197, 196, 196);
+            font-size:15px;
+        }
+        &--content{
+            margin:5px 0 5px 0px;
+            font-size:20px;
+        }
+    }
+    
+}
+
+::-webkit-scrollbar{
+    background:transparent;
+    margin-left:50px;
+    background-color:#929292;
+    opacity:0.5;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:$nav-color;
+    margin-left:50px;
+    width:10px;
+    border-radius:20px;
+}

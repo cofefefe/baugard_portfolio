@@ -1,0 +1,127 @@
+.presentation{
+    background-image: url(../../assets/portfolio_background.webp);
+    height:auto;
+    max-height:min-content;
+    background-size:fill;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width : 100%;
+        background: inherit;
+        height:90.7%;
+        z-index: -1;
+        // filter        : blur(10px);
+        // -moz-filter   : blur(10px);
+        // -webkit-filter: blur(10px);
+        // -o-filter     : blur(10px);
+    
+        // transition        : all 2s linear;
+        // -moz-transition   : all 2s linear;
+        // -webkit-transition: all 2s linear;
+        // -o-transition     : all 2s linear;
+    }
+    &__nav{
+        &--bio, &--hobbies, &--goals, &--ref{
+            background-color:rgb(241, 237, 237);
+            border-radius:30px;
+            padding:10px;
+            color:$nav-color;
+            border:1px solid rgb(144, 192, 255);
+            font-size:18px;
+            cursor:pointer;
+        }
+        p{
+            padding:0px 40px 0px 0px;
+            font-family:mukta_regular, sans-serif;
+        }
+    }
+    &__description{
+        background-color:$nav-color;
+        color:rgb(241, 237, 237);
+        font-family:mukta_regular, sans-serif;
+        margin:auto;
+        width:fit-content;
+        padding:20px 40px;
+        border-radius:40px;
+        font-size:20px;
+    }
+}
+
+.card{
+    background-color:$nav-color!important;
+    width:80%;
+    color:white;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition:300ms ease-in-out all;
+    padding:20px;
+    p{
+        font-family: mukta_regular,sans-serif;
+    }
+    h5{
+        font-family: playfair_medium,sans-serif;
+    }
+    &__titles{
+        border-bottom: 0.5px solid white;
+        width:fit-content;
+        margin:auto;
+        padding-bottom:5px;
+        padding-top:15px;
+    }
+    &__text{
+        text-align: justify;
+        padding:20px;
+    }
+    &__mamad{
+        float:right;
+        width:280px;
+        height:auto;
+    }
+    &__fm{
+        float:right;
+        padding:20px;
+        width:150px;
+    }
+    &__paradox{
+        float:left;
+        width:120px;
+        padding:20px;
+    }
+    &__civ{
+        float:right;
+        padding:20px;
+        width:200px;
+    }
+    &__icons{
+        &--wordpress, &--php, &--node, &--react{
+            width:80px;
+            padding:10px;
+            height:auto;
+            margin: 0 10px 0 10px;
+        }
+        &--wordpress{
+            color:rgb(56, 101, 248);
+        }
+        &--php{
+            color:rgb(148, 146, 252);
+        }
+        &--react{
+            color:rgb(0, 195, 255);
+        }
+        &--node{
+            color:rgb(108, 230, 108);
+        }
+    }
+    li{
+        list-style-type: none;
+        margin-top:40px;
+    }
+}
+
+@media (max-width:1100px) {
+    .card{
+        display:flex;
+        flex-direction:column;
+    }
+}

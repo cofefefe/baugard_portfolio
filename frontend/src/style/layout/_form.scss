@@ -1,0 +1,33 @@
+.form{
+    background-color:$primary-color;
+    border-radius:5px;
+    color:white;
+    transition:200ms all ease-in;
+    width:298px;
+    span{
+        font-size:30px;
+        position:relative;
+        bottom:25px;
+        left:240px;
+        margin-bottom:-40px;
+        color:white;
+        max-width:30px;
+    }
+    input{
+        border-radius:5px;
+        border:none;
+        width:250px
+    }
+    &__input{
+        margin-bottom:15px;
+    }
+}
+.connexion, .inscription{
+    padding:0 30px 0 30px;
+    transition:200ms all ease-in
+}
+@media (max-width: 565px) {
+    .connexion, .inscription{
+        padding:0;
+    }
+}

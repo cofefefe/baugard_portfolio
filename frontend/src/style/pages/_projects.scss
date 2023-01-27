@@ -1,0 +1,118 @@
+
+.projects{
+    margin:0;
+    padding:0;
+    width:100%;
+    overflow:hidden;
+    &__list{
+        &--card{
+            padding:10px;
+            border:1px solid rgb(104, 174, 192);
+            border-radius:30px;
+            max-width:620px;
+            background-color:white;
+            margin:0 auto 30px auto;
+            cursor:pointer;
+            transition:300ms ease all;
+            &:hover{
+                background-color:rgb(104, 174, 192);
+                p,a{
+                    color:white!important;
+                }
+            }
+            p{
+                margin:0;
+            }
+        }
+    }
+    
+    &__tools{
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+        text-align:center;
+        &--card{
+            width:150px;
+            margin-bottom:58px;
+            margin:16.5px 10px;
+            border:1px solid rgb(104, 174, 192);
+            padding:10px;
+            border-radius:30px;
+            background-color:white;
+            &--html{
+                color:#FF7700;
+            }
+            &--css{
+                color:#4168E8;
+            }
+            &--js{
+                color:#E6B905
+            }
+            &--react{
+                color:#1676E3;
+            }
+            &--bt{
+                color:#7E19B8;
+            }
+            &--sass{
+                color:#C7256B;
+            }
+            &--git{
+                color:black;
+            }
+            &--mongo{
+                color:#12AA12;
+            }
+        }
+    }
+    .icon{
+        width:30px;
+        height:30px;
+    }
+    &__image{
+        transform:scale(1);
+        max-height:800px;
+        margin-top:10px;
+    }
+    &__display{
+        display:flex;
+        justify-content:center;
+    }
+}
+.last{
+    margin-bottom:58px;
+}
+
+@media (max-width:1520px) {
+    .projects{
+        &__image{
+            transform:scale(0.8)
+        }
+    }
+}
+
+@media (max-width:1340px) {
+    .projects{
+        &__image{
+            transform:scale(0.7)
+        }
+    }
+}
+@media (max-width:1240px) {
+    .projects{
+        &__image{
+            transform:scale(0.6)
+        }
+    }
+}
+
+@media (max-width:1040px) {
+    .projects{
+        &__display{
+            display:none;
+        }
+        
+    }
+
+}
